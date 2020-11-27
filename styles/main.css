@@ -1,3 +1,24 @@
+.linkk,
+.login,
+.nav1,
+li{
+  display:inline-block;
+}
+body{
+  background-color: plum;
+}
 header{
-    background-color: pink;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  text-transform: uppercase;
+  colo
+}
+.section1{
+    text-align: center;
 }
