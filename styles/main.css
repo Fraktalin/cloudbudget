@@ -2,10 +2,41 @@
 .login,
 .nav1,
 li{
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
   display:inline-block;
 }
+.linkk{
+  font-family: Lato;
+  font-size: 18px;
+
+}
+.vidd{
+  max-width: 700px;
+}
+.btnst{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+}
 body{
-  background-color: plum;
+  background-color:#dda0dd;
+}
+.desccloud{
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color:#fff;
+}
+.ptext{
+  font-family: Lato;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 header{
   text-align: center;
@@ -13,12 +44,78 @@ header{
 h1{
   text-align: center;
   font-family: Lato;
-  font-style: normal;
   font-weight: bold;
   font-size: 72px;
   text-transform: uppercase;
-  colo
+  color: #fff;
 }
 .section1{
-    text-align: center;
+  text-align: center;
+}
+h2{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+h3{
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+}
+.section2,
+.section3,
+.section4{
+  background-color: #fff;
+}
+.pmore{
+  font-family: Lato;
+font-size: 12px;
+font-style: normal;
+}
+.pageleft{
+  display:inline-block;
+  max-width: 445px;
+  padding-left: 165px;
+}
+.imagepageright{
+  width: 540px;
+  height: 311px;
+  display: inline-flex;
+  padding-top: 90px;
+}
+.heading2{
+  text-align: center;
+}
+.imagex3 li{
+  background-color: #fff;
+  margin-right: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.imagex4 li{
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.ul1footer li{
+  display: inline;
+}
+.ul2footer li{
+  display: block;
+}
+footer{
+  display: block;
+  background-color: #fff;
+}
+.contact{
+  background-color: #fff;
+}
+.ptextfoot{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
 }
