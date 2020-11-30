@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CloudBudget</title>
-  <meta name="description" content="Интенсивный курс HTML, CSS">
+  <meta name="description" content="Cloud Budget, Easy to Use Cloud Budget Management Software">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 	<link rel="stylesheet" href="/styles/main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,70 +12,81 @@
 	
 </head>
 <body>
-  <header>
-    <a class="linkk" href="/" >
-			<img src="/images/logo.svg" alt="Лого облачко">CloudBudget
-    </a>
-    <nav class="nav1">
-      <ul>
-        <li>
-          <a href="">OVERVIEW</a>
-        </li>
-        <li>
-          <a href="">FEATURES</a>
-        </li>
-        <li>
-          <a href="">TECHNOLOGY</a>
-        </li>
-        <li>
-          <a href="">CONTACT</a>
-        </li>
-        <li>
-          <a href="">Sign up</a>
-        </li>
-      </ul>
-		</nav>
-		<button class="login">login</button>
-	</header>
-	<main>
-		<section class="section1">
-		<h1>CloudBudget</h1>
-		<p class="desccloud">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
-		Up to €4.99</p>
-		<button class="btnst">Sign Up</button>
-    </section>
-    <section class="section2">
+  <!-- <section class="bg-image"> -->
+    <header>
+      <a class="main-logo" href="/" >
+        <img src="/images/logo.svg" alt="Лого облачко">
+      </a>
+      <nav class="nav-main">
+        <ul>
+          <li>
+            <a href="">OVERVIEW</a>
+          </li>
+          <li>
+            <a href="">FEATURES</a>
+          </li>
+          <li>
+            <a href="">TECHNOLOGY</a>
+          </li>
+          <li>
+            <a href="">CONTACT</a>
+          </li>
+          <li>
+            <a href="">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button-login">login</button>
+    </header>
+  
+  <main>
+      <section class="section-one">
+      <h1 class="first-title">CloudBudget</h1>
+      <p class="desccloud">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
+      Up to €4.99</p>
+      <button class="button-signup">Sign Up</button>
+      </section>
+    <!-- </section> -->
+    <section class="section-video">
       <div class="pageleft">
         <h2>Easy to Use Cloud Budget Management Software</h2>
-        <p class="ptext">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
+        <p class="text-video">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
       </div>
-      <video class="vidd" src="https://febasic.github.io/media/video.mp4" poster="/images/Video.jpg"></video>
-      <button>⏵</button>
+      <video class="video" src="https://febasic.github.io/media/video.mp4" poster="/images/Video.jpg"></video>
+      <button class="button-play">
+        <img src="./images/playbutton.svg" alt="">
+      </button>
     </section>
-    <section class="section3">
+    <section class="section-features">
       <h2 class="heading2">Features</h2>
       <ul class="imagex3">
         <li>
           <img src="/images/money.jpg" alt="В руках бумажные деньги">
-          <h3>Supports All Currencies and Cards</h3>
-          <p>We support all popular currencies and is fully customizable to add</p>
-          <a href=""><p class="pmore">Read More</p></a>
+          <div class="element-in-image">
+            <h3>Supports All Currencies and Cards</h3>
+            <p>We support all popular currencies and is fully customizable to add</p>
+            <a href=""><p class="text-features">Read More</p></a>
+          </div>
         </li>
         <li>
           <img src="/images/smartfone.jpg" alt="Телефон в руках">
-          <h3>Manage your expenses on the go</h3>
-          <p>You can access your account from anywhere in the world on any device</p>
-          <a href=""><p class="pmore">Read More</p></a>
+          <div class="element-in-image">
+            <h3>Manage your expenses on the go</h3>
+            <p>You can access your account from anywhere in the world on any device</p>
+            <a href=""><p class="text-features">Read More</p></a>
+          </div>
         </li>
         <li>
           <img src="/images/coridor.jpg" alt="Стеклянный коридор">
-          <h3>Manage your expenses on the go</h3>
-          <p>Our software is made so you can access and manage your budget</p>
-          <a href=""><p class="pmore">Read More</p></a>
+          <div class="element-in-image">
+            <h3>Manage your expenses on the go</h3>
+            <p>Our software is made so you can access and manage your budget</p>
+            <a href=""><p class="text-features">Read More</p></a>
+          </div>
         </li>
       </ul>
     </section>
-    <section class="section4">
+    <section class="section-technology">
       <h2 class="heading2">Technology</h2>
       <ul class="imagex4">
         <li>
@@ -107,7 +118,7 @@
     <section>
       <div class="pageleft">
         <h2>Stay focused on saving money</h2>
-        <p class="ptext">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
+        <p class="text-features">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
         <a href="">
           <img src="/images/playstore.svg" alt="Логотип playstore">
         </a>
@@ -128,24 +139,27 @@
       </div>
       <form class="pageleft">
           <label>
-            <input type="text" name="user_first_name" placeholder="First Name" required>
+            <input class="select-main"  type="text" name="user_first_name" placeholder="First Name" required>
           </label>
           <label>
-            <input type="text" name="user_last_name" placeholder="Last Name" required>
+            <input class="select-main" type="text" name="user_last_name" placeholder="Last Name" required>
           </label>
           <label>
-            <input type="tel" name="user_tel" placeholder="Phone Number" required>
+            <input class="select-second" type="tel" name="user_tel" placeholder="Phone Number" required>
           </label>
           <label>
-            <select name="select">
-              <option value="user_choice">Select Service</option> 
+            <select
+              class="select-second">
+              <option disabled selected>Select Service</option>
+              <option value="one-month">One month</option>
+              <option value="six-month">Six month</option>
             </select>
           </label>
-          <button class="btnst" type="submit">Submit Now</button>
+          <button class="button-submit" type="submit">Submit Now</button>
       </form>      
     </section>
   </main>
-  <footer>
+  <footer class="main-footer">
     <section>
       <div class="pageleft">
         <ul class="ul1footer">
@@ -153,9 +167,9 @@
             <h3>Adress</h3>
           </li>
           <li>
-            <p>Pipang Ltd, Griva Digeni,</p>
-            <p>81-83 Jacovides Tower, 1st Floor</p> 
-            <p>1090 Picosia USA</p>
+            <p class="p-foot-text">Pipang Ltd, Griva Digeni,
+            81-83 Jacovides Tower, 1st Floor
+            1090 Picosia USA</p>
           </li>
         </ul>
       </div>
