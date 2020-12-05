@@ -1,79 +1,129 @@
-.linkk,
-.login,
-.nav1,
+*{
+  font-family: Lato, serif;
+  font-display: swap;
+}
+.main-logo,
+.button-login,
+.nav-main,
 li{
-  font-family: Lato;
+  margin-top: 30px;
   font-size: 14px;
   font-style: normal;
   display:inline-block;
 }
-.linkk{
-  font-family: Lato;
-  font-size: 18px;
-
+.button-login{
+  margin-left: 50px;
+  text-transform: uppercase;
+  padding: 11px 28px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10%;
 }
-.vidd{
+.nav-main a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+.button-login:hover{
+  background-color: #fff;
+  color: #000;
+}
+.button-login:active {
+  color: #7cc9f0;
+  background-color: #555555;
+  }
+.button-login:focus{
+  outline: solid #008000;
+}
+.video{
   max-width: 700px;
 }
-.btnst{
-  font-family: Lato;
-  font-size: 14px;
-  font-weight: 600;
+.button-signup{
+  padding: 15px 45px;
+  background-color: #fff;
+  color: #E63244;
+  border-radius: 10%;
 }
-body{
-  background-color:#dda0dd;
+.button-signup:active{
+  background-color: #E63244;
+  color: #000;
 }
+.button-signup:hover{
+  background-color: #E63244;
+  color: black;
+}
+.button-signup:focus{
+  outline: solid #008000;
+}
+  .bg-image{
+  background-color: #c7b39b;
+  background-image: url("../images/firstimage.jpg"); 
+  width: 1440px;
+  height: 782px;
+} 
 .desccloud{
-  font-family: Lato;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   text-align: center;
   color:#fff;
 }
-.ptext{
-  font-family: Lato;
-  font-family: Lato;
+.text-video{
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
 header{
+  
   text-align: center;
 }
-h1{
+.first-title{
+  margin-top: 170px;
   text-align: center;
-  font-family: Lato;
   font-weight: bold;
   font-size: 72px;
   text-transform: uppercase;
   color: #fff;
 }
-.section1{
+.section-one{
   text-align: center;
 }
 h2{
-  font-family: Lato;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
   color: #000000;
 }
+.button-play{
+  border: none;
+  padding: 15px;
+  border-radius: 100%;
+  background-color: #ED4C5C;
+}
+.button-play:hover{
+  background-color: #993e47
+}
+.button-play:active{
+  background-color: #000000;
+}
+.button-play:focus{
+  outline: solid #008000;
+}
 h3{
-  font-family: Lato;
   font-size: 18px;
   font-weight: 700;
 }
-.section2,
-.section3,
-.section4{
+.section-video,
+.section-features,
+.section-technology{
   background-color: #fff;
 }
-.pmore{
-  font-family: Lato;
-font-size: 12px;
-font-style: normal;
+.more-features{
+  font-size: 12px;
+  font-style: normal;
 }
 .pageleft{
   display:inline-block;
@@ -85,6 +135,18 @@ font-style: normal;
   height: 311px;
   display: inline-flex;
   padding-top: 90px;
+}
+.element-in-image{
+  padding-top: 60px;
+  width: 290px;
+  height: 200px;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+  margin-top: -100px;
+  margin-left: 72px;
+  width: 70%;
+  box-shadow: 0 0 20px #000;
 }
 .heading2{
   text-align: center;
@@ -106,16 +168,49 @@ font-style: normal;
 .ul2footer li{
   display: block;
 }
-footer{
-  display: block;
-  background-color: #fff;
+.p-foot-text{
+  width: 200px;
 }
+.main-footer{
+  background-color: #fff;
+} 
 .contact{
   background-color: #fff;
 }
 .ptextfoot{
-  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+}
+.select-main{
+  border-radius: 10%;
+  padding: 20px 80px 20px 30px;
+}
+.select-main:focus{
+  outline: solid #008000;
+}
+.select-second{
+  padding: 20px 400px 20px 30px;
+  color: rgba(19, 39, 67, 0.5);
+  border-radius: 10%;
+}
+.select-second:focus{
+  outline: solid #008000;
+}
+.button-submit{
+  padding: 20px 35px;
+  background-color: #ED4C5C;
+  color: #fff;
+  border-radius: 10%;
+}
+.button-submit:hover{
+  background-color: #fff;
+  color: black;
+}
+.button-submit:active {
+  color: #7cc9f0;
+  background-color: #555555;
+  }
+.button-submit:focus{
+  outline: solid #008000;
 }

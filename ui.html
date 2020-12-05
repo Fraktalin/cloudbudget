@@ -6,13 +6,39 @@
 	<title>CloudBudget UI</title>
 	<meta name="description" content="Интенсивный курс HTML, CSS">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-	<link rel="stylesheet" href="/styles/main.css">
+	<link rel="stylesheet" href="./styles/main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h2 class="heading2">heading two</h2>
-  <p class="ptext">text</p>
+	<h1 class="first-title">first-title</h1>
+	<h2 class="heading2">heading two</h2>
+  <p class="text-video">text</p>
 	<p class="ptextfoot">textdown</p>
+	<button class="button-login">login</button>
+	<button class="button-signup">Sign Up</button>
+	<button class="button-play">
+		<img src="./images/playbutton.svg" alt="">
+	</button>
+	<form class="pageleft">
+		<label>
+			<input class="select-main"  type="text" name="user_first_name" placeholder="First Name" required>
+		</label>
+		<label>
+			<input class="select-main" type="text" name="user_last_name" placeholder="Last Name" required>
+		</label>
+		<label>
+			<input class="select-second type="tel" name="user_tel" placeholder="Phone Number" required>
+		</label>
+		<label>
+			<select
+				class="select-second">
+				<option disabled selected>Select Service</option>
+				<option value="one-month">One month</option>
+				<option value="six-month">Six month</option>
+			</select>
+		</label>
+		<button class="button-submit" type="submit">Submit Now</button>
+</form>
 </body>
 </html>
