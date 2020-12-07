@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap" rel="stylesheet">   
   </head>
   <body>
     <header class="main-header">
@@ -42,7 +41,7 @@
             </nav>
           </div>
           <div class="col col-2 offset-1">
-            <button class="button-login">login</button>
+            <button aria-label="Button login" class="button-login">login</button>
           </div>
         </div>
       </div>
@@ -57,14 +56,13 @@
           </div>
           <div class="row">
             <div class="col col-6 offset-3 text-center">
-                <p class="desccloud">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of 
-                  Up to €4.99</p>
-                <button class="button-signup">Sign Up</button>
+                <p class="desccloud">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of Up to €4.99</p>
+                <button aria-label="button Sign up" class="button-signup">Sign Up</button>
               </div>
             </div>
           </div>
         </section>
-        <section class="section-video margin-70">
+        <section class="section-video padding-70">
           <div class="container">
             <div class="row">
               <div class="col col-5">
@@ -72,15 +70,17 @@
                 <p class="text-video">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
               </div>
               <div class="col col-6 offset-1">
-                <video class="video" src="https://febasic.github.io/media/video.mp4" poster="/images/Video.jpg"></video>
-                <button class="button-play">
-                <img src="./images/playbutton.svg" alt="">
-                </button>
+                <div class="button-invideo">
+                  <video class="video" src="https://febasic.github.io/media/video.mp4" poster="/images/Video.jpg"></video>
+                  <button aria-label="Play the video" class="button-play">
+                    <img src="./images/playbutton.svg" alt="triangle(play button)">
+                  </button>
+                </div>
               </div>
             </div>
           </div>
       </section>
-      <section class="section-features margin-70">
+      <section class="section-features padding-70">
         <div class="container">
           <div class="row">
             <div class="col col-2 offset-5">
@@ -90,18 +90,22 @@
           <ul class="row">
             <li class="col col-4">
               <img class="image-features" src="/images/money.jpg" alt="Money in hands">
-            <div class="element-in-image">
-              <h3 class="title-small">Supports All Currencies and Cards</h3>
-              <p>We support all popular currencies and is fully customizable to add</p>
-              <a class="features-link-text" href=""><p class="text-features">Read More</p></a>
-            </div>
+              <div class="element-in-image">
+                <h3 class="title-small">Supports All Currencies and Cards</h3>
+                <p>We support all popular currencies and is fully customizable to add</p>
+                <a class="features-link-text" href="">
+                  <span>Read More</span>
+                </a>
+              </div>
             </li>
             <li class="col col-4">
               <img class="image-features" src="/images/smartfone.jpg" alt="Smartphone in hands">
               <div class="element-in-image">
                 <h3 class="title-small">Manage your expenses on the go</h3>
                 <p>You can access your account from anywhere in the world on any device</p>
-                <a class="features-link-text" href=""><p class="text-features">Read More</p></a>
+                <a class="features-link-text" href="">
+                  <span>Read More</span>
+                </a>
               </div>
             </li>
             <li class="col col-4">
@@ -109,13 +113,15 @@
               <div class="element-in-image">
                 <h3 class="title-small">Cloud Budget Management Software</h3>
                 <p>Our software is made so you can access and manage your budget</p>
-                <a class="features-link-text" href=""><p class="text-features">Read More</p></a>
+                <a class="features-link-text" href="">
+                  <span>Read More</span>
+                </a>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section-technology margin-70">
+      <section class="section-technology padding-70">
         <div class="container">
           <div class="row">
             <div class="col col-2 offset-5">
@@ -124,25 +130,25 @@
           </div>
           <ul class="row text-center">
             <li class="col col-3">
-              <p class="numbers">01</p>
+              <span class="numbers">01</span>
               <img class="image-technology" src="/images/cloud.svg" alt="Logo cloud">
               <h3 class="title-small">Cloud Storage</h3>
               <p>Access your account from anywhere in the world on any device</p>
             </li>
             <li class="col col-3">
-              <p class="numbers">02</p>
+              <span class="numbers">02</span>
               <img class="image-technology" src="/images/loop.svg" alt="Lofo loop">
               <h3 class="title-small">Secure</h3>
               <p>All your information is stored on secure cloud servers</p>
             </li>
             <li class="col col-3">
-              <p class="numbers">03</P>
+              <span class="numbers">03</span>
               <img class="image-technology" src="/images/pdf.svg" alt="Logo PDF">
               <h3 class="title-small">PDF Download</h3>
               <p>Download any of your reports in PDF format</p>
             </li>
             <li class="col col-3">
-              <p class="numbers">04</p>
+              <span class="numbers">04</span>
               <img class="image-technology" src="/images/csv.svg" alt="LOGO CSV">
               <h3 class="title-small">CSV Download</h3>
               <p>All your information is stored on secure cloud servers</p>
@@ -150,20 +156,20 @@
           </ul>
         </div>
       </section>
-      <section class="margin-70">
+      <section class="section-map padding-70">
         <div class="container">
           <div class="row">
             <div class="col col-5">
-              <h2 class="title-medium">Stay focused on saving money</h2>
+              <h2 class="title-medium text-white">Stay focused on saving money</h2>
               <p class="text-features">It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
               <a href="">
-                <img src="/images/playstore.svg" alt="Logo Playstore">
+                <img class="logo-platform" src="/images/playstore.svg" alt="Logo Playstore">
               </a>
               <a href="">
-                <img src="/images/appstore.svg" alt="Logo Appstore">
+                <img class="logo-platform" src="/images/appstore.svg" alt="Logo Appstore">
               </a>
               <a href="">
-                <img src="/images/windows.svg" alt="Logo Windows">
+                <img class="logo-platform" src="/images/windows.svg" alt="Logo Windows">
               </a>
             </div>
             <div class="col col-6 offset-1">
@@ -172,7 +178,7 @@
           </div>
         </div>
       </section>
-      <section class="contact margin-70">
+      <section class="contact padding-70">
         <div class="container">
           <div class="row">
             <div class="col col-5">
@@ -184,7 +190,7 @@
                 <div class="row">
                     <div class="col col-6">
                       <label>
-                      <input class="select-main"  type="text" name="user_first_name" placeholder="First Name" required>
+                        <input class="select-main"  type="text" name="user_first_name" placeholder="First Name" required>
                       </label>
                     </div>
                     <div class="col col-6">
@@ -197,21 +203,20 @@
                   <input class="select-second" type="tel" name="user_tel" placeholder="Phone Number" required>
                 </label>
                 <label>
-                  <select
-                    class="select-second">
+                  <select class="select-second">
                     <option disabled selected>Select Service</option>
                     <option value="one-month">One month</option>
                     <option value="six-month">Six month</option>
                   </select>
                 </label>
-                <button class="button-submit" type="submit">Submit Now</button>
+                <button aria-label="Button submit now" class="button-submit" type="submit">Submit Now</button>
               </form>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="main-footer margin-70">
+    <footer class="main-footer padding-70">
       <section>
         <div class="container">
           <ul class="row">
@@ -225,29 +230,27 @@
             <li class="col col-2">
               <h3 class="title-foot">Services</h3>
               <p>
-                <a href="">Overview</a>
+                <a class="footer-black" href="">Overview</a>
               </p>
               <p>
-                <a href="">Features</a>
+                <a class="footer-black" href="">Features</a>
               </p>
               <p>
-                <a href="">Technology</a>
+                <a class="footer-black" href="">Technology</a>
               </p>
               <p>
-                <a href="">Terms & Conditions</a>
+                <a class="footer-black" href="">Terms & Conditions</a>
               </p>
               <p>
-                <a href="">Privacy</a>
+                <a class="footer-black" href="">Privacy</a>
               </p>
-              
             </li>
             <li class="col col-2 offset-1">
               <h3 class="title-foot">Get In Touch</h3>
-              <a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
+              <a class="footer-black" href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
               <p>
-                <a href="tel:+18447217120">+1 844-721-7120</a>
+                <a class="footer-black" href="tel:+18447217120">+1 844-721-7120</a>
               </p>
-              
               <a href="">
                 <img src="/images/fecebook.svg" alt="Logo Facebook">
               </a>

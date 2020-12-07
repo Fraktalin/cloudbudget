@@ -1,133 +1,140 @@
-*{
+* {
   text-decoration: none;
   font-family: Lato, serif;
   font-display: swap;
 }
 *,
 *:after,
-*:before{
+*:before {
   box-sizing: border-box;
 }
-ul{
+ul {
   padding-left: 0;
 }
-body{
-  background-color: #bebbbb;
-}
-.container{
+.container {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-.row{
+.row {
   margin-left: -15px;
   margin-right: -15px;
 }
-.row:after{
+.row:after {
   content: '';
   display: block;
   clear: both;
 }
-.col{
+.col {
   padding-left: 15px;
   padding-right: 15px;
   float: left;
 }
-.col-1{
+.col-1 {
   float: left;
   width: 8.33333%;
 }
-.col-2{
+.col-2 {
   float: left;
   width: 16.66666%;
 }
-.col-3{
+.col-3 {
   float: left;
   width: 25%;
 }
-.col-4{
+.col-4 {
   float: left;
   width: 33.33333%;
 }
-.col-5{
+.col-5 {
   float: left;
   width: 41.66666%;
 }
-.col-6{
+.col-6 {
   float: left;
   width: 50%;
 }
-.col-7{
+.col-7 {
   float: left;
   width: 58.33333%;
 }
-.col-8{
+.col-8 {
   float: left;
   width: 66.66666%;
 }
-.col-9{
+.col-9 {
   float: left;
   width: 75%;
 }
-.col-10{
+.col-10 {
   float: left;
   width: 83.33333%;
 }
-.col-11{
+.col-11 {
   float: left;
   width: 91.66666%;
 }
-.col-12{
+.col-12 {
   float: left;
   width: 100%;
 }
-.offset-1{
+.offset-1 {
   margin-left: 8.33333%;
 }
-.offset-2{
+.offset-2 {
   margin-left: 16.66666%;
 }
-.offset-3{
+.offset-3 {
   margin-left: 25%;
 }
-.offset-4{
+.offset-4 {
   margin-left: 33.33333%;
 }
-.offset-5{
+.offset-5 {
   margin-left: 41.66666%;
 }
-.offset-6{
+.offset-6 {
   margin-left: 50%;
 }
-.offset-7{
+.offset-7 {
   margin-left: 58.33333%;
 }
-.offset-8{
+.offset-8 {
   margin-left: 66.66666%;
 }
-.offset-9{
+.offset-9 {
   margin-left: 75%;
 }
-.offset-10{
+.offset-10 {
   margin-left: 83.33333%;
 }
-.offset-11{
+.offset-11 {
   margin-left: 91.66666%;
 }
-.offset-12{
+.offset-12 {
   margin-left: 100%;
+}
+.hero-section {
+  height: 100vh;
+  padding-bottom: 170px;
+  background-image: url(/images/Background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .main-logo,
 .button-login,
 .main-nav,
-li{
+li {
   list-style-type: none;
   font-size: 14px;
   font-style: normal;
 }
-.button-login{
+.button-login {
+  margin-left: 50px;
   text-transform: uppercase;
   padding: 11px 28px;
   color: #fff;
@@ -135,149 +142,172 @@ li{
   border: 1px solid #fff;
   border-radius: 6px;
 }
-.main-header{
-  padding-top: 55px;
+.main-header {
+  width: 100%;
+  position: absolute;
+  padding-top: 50px;
   font-style: normal;
   font-weight: 400;
 }
-.main-nav-list{
+.main-nav-list {
   margin-left: 0;
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
   list-style-type: none;
 }
-.main-nav-list-item{
+.main-nav-list-item {
   list-style-type: none;
   display: inline-block;
-  margin-left: 15px;
+  padding-left: 15px;
 }
-.numbers{
+.numbers {
+  display: block;
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 100px;
   color: rgba(16, 16, 16, 0.08);
 }
-.features-link-text{
-  color: #ED4C5C;
+.features-link-text {
+  color: #ed4c5c;
 }
-.image-technology{
+.image-technology {
+  text-align: center;
+  min-height: 70px;
   margin-top: -80px;
 }
-.image-features{
+.image-features {
   width: 100%;
 }
-.text-features{
+
+.text-features {
+  color: #fff;
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.main-map{
+.main-map {
   height: 310px;
   width: 100%;
   border-radius: 8px;
 }
-.main-nav a{
+.main-nav a {
   color: #fff;
   text-transform: uppercase;
 }
-.button-login:hover{
+.button-login:hover {
   background-color: #fff;
   color: #000;
 }
-.button-login:active {
+.button-login:active  {
   color: #7cc9f0;
-  background-color: #555555;
+  background-color: #555;
   }
-.button-login:focus{
+.button-login:focus {
   outline: solid #008000;
 }
-.video{
-  width: 400px;
+.logo-platform {
+  padding-right: 20px;
+}
+.video {
+  max-width: 100%;
   height: 311px;
 }
-.button-signup{
+.button-signup {
+  text-transform: uppercase;
+  margin-top: 40px;
   padding: 15px 45px;
   background-color: #fff;
-  color: #E63244;
+  color: #e63244;
   border-radius: 6px;
+  border: none;
 }
-.button-signup:active{
-  background-color: #E63244;
+.button-signup:active {
+  background-color: #e63244;
   color: #000;
 }
-.button-signup:hover{
-  background-color: #E63244;
+.button-signup:hover {
+  background-color: #e63244;
   color: #000;
 }
-.button-signup:focus{
+.button-signup:focus {
   outline: solid #008000;
 }
-  .bg-image{
+  .bg-image {
   background-color: #c7b39b;
   background-image: url("../images/firstimage.jpg"); 
   width: 1440px;
   height: 782px;
 } 
-.desccloud{
+.desccloud {
   text-align: center;
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   color:#fff;
 }
-.text-video{
+.text-video {
   text-align: justify;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
-.first-title{
-  margin-top: 170px;
+.first-title {
+  margin-top: 250px;
   font-weight: bold;
   font-size: 72px;
   text-transform: uppercase;
   color: #fff;
 }
-.title-medium{
+.title-medium {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
   color: #000;
 }
-.button-play{
-  border: none;
-  padding: 15px;
-  border-radius: 100%;
-  background-color: #ED4C5C;
+.button-invideo {
+  position: relative; 
 }
-.button-play:hover{
+.button-play {
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  border: none;
+
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #ed4c5c;
+}
+.button-play:hover {
   background-color: #993e47
 }
-.button-play:active{
+.button-play:active {
   background-color: #000000;
 }
-.button-play:focus{
+.button-play:focus {
   outline: solid #008000;
 }
-.title-small{
+.title-small {
   font-size: 18px;
   font-weight: 700;
 }
+.text-white {
+  color:#fff;
+}
 .section-video,
 .section-features,
-.section-technology{
+.section-technology {
   background-color: #fff;
 }
-.more-features{
+.more-features {
   font-size: 12px;
   font-style: normal;
 }
-.element-in-image{
+.element-in-image {
   border-radius: 8px;
   padding: 32px;
   width: 90%;
@@ -287,44 +317,39 @@ li{
   background: #fff;
   margin-top: -100px;
   margin-left: 18px;
-  box-shadow: 0 0 20px #000;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
-.second-nav-list li{
-  background-color: #fff;
-  margin-right: 30px;
-  padding: 30px;
-  text-align: center;
+.footer-black {
+  color: #000;
 }
-.main-footer{
-  background-color: #fff;
-} 
-.contact{
-  background-color: #fff;
-}
-.foot-logo{
+.foot-logo {
   padding-left: 10px;
   padding-right: 10px;
 }
-.ptextfoot{
+.section-map {
+  background: #ed4c5c;
+}
+.ptextfoot {
   padding-top: 120px;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
 }
-.margin-70{
-  margin-top: 70px;
+.padding-70 {
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
-.select-main{
+.select-main {
   border: none;
   width: 100%;
   height: 60px;
   border: 1px solid #333;
   border-radius: 6px;
 }
-.select-main:focus{
+.select-main:focus {
   outline: solid #008000;
 }
-.select-second{
+.select-second {
   border: none;
   margin-top: 24px;
   width: 100%;
@@ -332,27 +357,28 @@ li{
   border: 1px solid #333;
   border-radius: 6px;
 }
-.select-second:focus{
+.select-second:focus {
   outline: solid #008000;
 }
-.title-foot{
+.title-foot {
   padding-bottom: 20px;
 }
-.button-submit{
+.button-submit {
   margin-top: 24px;
   padding: 20px 35px;
-  background-color: #ED4C5C;
+  background-color: #ed4c5c;
   color: #fff;
   border-radius: 6px;
+  border: none;
 }
-.button-submit:hover{
-  background-color: #fff;
-  color: #000;
+.button-submit:hover {
+  background-color: #ca3b49;
+  color: #fff;
 }
 .button-submit:active {
   color: #7cc9f0;
   background-color: #555;
   }
-.button-submit:focus{
+.button-submit:focus {
   outline: solid #008000;
 }
