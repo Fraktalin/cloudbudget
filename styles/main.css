@@ -1,7 +1,6 @@
 * {
   text-decoration: none;
-  font-family: Lato, serif;
-  font-display: swap;
+  font-family: "Lato", sans-serif;
 }
 *,
 *:after,
@@ -117,7 +116,7 @@ ul {
   margin-left: 100%;
 }
 .hero-section {
-  height: 100vh;
+  min-height: 100vh;
   padding-bottom: 170px;
   background-image: url(/images/Background.jpg);
   background-position: center;
@@ -240,6 +239,8 @@ li {
   height: 782px;
 } 
 .desccloud {
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
   font-size: 24px;
   font-style: normal;
@@ -341,7 +342,7 @@ li {
 }
 .select-main {
   padding: 20px;
-  color: rgba(19, 39, 67, 0.5);;
+  color: rgba(19, 39, 67, 0.5);
   border: none;
   width: 100%;
   height: 60px;
