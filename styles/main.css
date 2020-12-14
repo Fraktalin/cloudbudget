@@ -32,51 +32,39 @@ ul {
   float: left;
 }
 .col-1 {
-  float: left;
   width: 8.33333%;
 }
 .col-2 {
-  float: left;
   width: 16.66666%;
 }
 .col-3 {
-  float: left;
   width: 25%;
 }
 .col-4 {
-  float: left;
   width: 33.33333%;
 }
 .col-5 {
-  float: left;
   width: 41.66666%;
 }
 .col-6 {
-  float: left;
   width: 50%;
 }
 .col-7 {
-  float: left;
   width: 58.33333%;
 }
 .col-8 {
-  float: left;
   width: 66.66666%;
 }
 .col-9 {
-  float: left;
   width: 75%;
 }
 .col-10 {
-  float: left;
   width: 83.33333%;
 }
 .col-11 {
-  float: left;
   width: 91.66666%;
 }
 .col-12 {
-  float: left;
   width: 100%;
 }
 .offset-1 {
@@ -132,6 +120,13 @@ li {
   font-size: 14px;
   font-style: normal;
 }
+.main-logo {
+  color: #fff;
+  font-size: 25px;
+}
+.link-cloud {
+  padding-top: 10px;
+}
 .button-login {
   margin-left: 50px;
   text-transform: uppercase;
@@ -168,13 +163,27 @@ li {
   font-size: 100px;
   color: rgba(16, 16, 16, 0.08);
 }
+.icon-group {
+  display: block;
+  color: #ed4c5c;
+  text-align: center;
+  min-height: 65px;
+}
+.icon-cloud {
+  font-size: 80px;
+  margin-top: -70px;
+}
+.icon-loop {
+  font-size: 66px;
+  margin-top: -65px;
+}
+.icon-pdf,
+.icon-csv {
+  font-size: 54px;
+  margin-top: -58px;
+}
 .features-link-text {
   color: #ed4c5c;
-}
-.image-technology {
-  text-align: center;
-  min-height: 70px;
-  margin-top: -80px;
 }
 .image-features {
   width: 100%;
@@ -190,7 +199,7 @@ li {
   width: 100%;
   border-radius: 8px;
 }
-.main-nav a {
+.main-nav-list-item-link {
   color: #fff;
   text-transform: uppercase;
 }
@@ -198,22 +207,29 @@ li {
   background-color: #fff;
   color: #000;
 }
-.button-login:active  {
+.button-login:active {
   color: #7cc9f0;
   background-color: #555;
   }
 .button-login:focus {
   outline: solid #008000;
 }
-.logo-platform {
-  padding-right: 20px;
+.icon-playstore,
+.icon-appstore,
+.icon-windows {
+  padding-right: 25px;
+  color: #fff;
+  font-size: 32px;
 }
+
 .video {
   max-width: 100%;
   height: 311px;
 }
 .button-signup {
+  position: relative;
   text-transform: uppercase;
+  z-index: 1;
   margin-top: 40px;
   padding: 15px 45px;
   background-color: #fff;
@@ -221,23 +237,36 @@ li {
   border-radius: 6px;
   border: none;
 }
-.button-signup:active {
-  background-color: #e63244;
-  color: #000;
+.button-signup:before,
+.button-signup:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(#e66465, #ffffff);
+    transition: width 0.3s;
+}
+.button-signup:before {
+  left:0;
+}
+.button-signup:after {
+  right:0;
+}
+.button-signup:hover:before,
+.button-signup:hover:after {
+  width: 51%;
 }
 .button-signup:hover {
-  background-color: #e63244;
+  box-shadow: 0px 3px 30px rgb(0, 0, 0);
+}
+.button-signup:active {
   color: #000;
 }
 .button-signup:focus {
   outline: solid #008000;
 }
-  .bg-image {
-  background-color: #c7b39b;
-  background-image: url("../images/firstimage.jpg"); 
-  width: 1440px;
-  height: 782px;
-} 
 .desccloud {
   padding-left: 30px;
   padding-right: 30px;
@@ -274,13 +303,14 @@ li {
   position: relative; 
 }
 .button-play {
+  color: #fff;
   position: absolute;
-  left: calc(50% - 10px);
-  top: calc(50% - 10px);
+  left: calc(50% - 33px);
+  top: calc(50% - 33px);
   border: none;
-
-  padding: 20px;
-  border-radius: 100%;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
   background-color: #ed4c5c;
 }
 .button-play:hover {
@@ -312,7 +342,7 @@ li {
   border-radius: 8px;
   padding: 32px;
   width: 90%;
-  height: 200px;
+  min-height: 200px;
   position: relative;
   text-align: center;
   background: #fff;
@@ -341,8 +371,9 @@ li {
   padding-top: 70px;
 }
 .select-main {
+  background-color: #fff;
   padding: 20px;
-  color: rgba(19, 39, 67, 0.5);
+  color: #13274380;
   border: none;
   width: 100%;
   height: 60px;
@@ -353,14 +384,29 @@ li {
   outline: solid #008000;
 }
 .select-second {
+  background-color: #fff;
   padding: 20px;
-  color: rgba(19, 39, 67, 0.5);;
+  color: #13274380;;
   border: none;
   margin-top: 24px;
   width: 100%;
   height: 60px;
   border: 1px solid #333;
   border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.select-wrapp {
+  position: relative;
+  
+}
+.icon-down {
+  font-size: 14px;
+  color: #13274380;
+  position: absolute;
+  right: 15px;
+  top: 48px;
 }
 .select-second:focus {
   outline: solid #008000;
@@ -386,4 +432,11 @@ li {
   }
 .button-submit:focus {
   outline: solid #008000;
+}
+.icon-fecebook,
+.icon-twitt,
+.icon-linkein {
+  padding-right: 12px;
+  color: #000;
+  font-size: 22px;
 }
