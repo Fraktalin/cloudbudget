@@ -124,8 +124,8 @@ li {
   color: #fff;
   font-size: 25px;
 }
-.link-cloud {
-  padding-top: 10px;
+.main-logo-img{
+  padding-top: 5px;
 }
 .button-login {
   margin-left: 50px;
@@ -334,6 +334,12 @@ li {
 .section-technology {
   background-color: #fff;
 }
+.ptext {
+text-align: justify;
+font-weight: 400;
+font-style: normal;
+font-size: 16px;
+}
 .more-features {
   font-size: 12px;
   font-style: normal;
@@ -402,11 +408,11 @@ li {
   
 }
 .icon-down {
-  font-size: 14px;
+  font-size: 8px;
   color: #13274380;
   position: absolute;
   right: 15px;
-  top: 48px;
+  top: 52px;
 }
 .select-second:focus {
   outline: solid #008000;
